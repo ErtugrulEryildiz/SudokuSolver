@@ -7,7 +7,7 @@ SudokuSolver is a sudoku puzzle solver that utilizes three different algorithm, 
 ```bash
 python3 main.py <<Algorithm Type>>
 ```
-Algorithm type must be in between 1 and 3, representing the algorithm to be used.
+Algorithm type must be in between 1 and 3, representing the algorithm to be used. 1-> Backtracking, 2-> Rule Based, 3-> Boltzmann Machine
 
 ## Input
 Program reads the first puzzle that is provided in the generatedSudokus test file. If user wants to test their own puzzles, they should follow the same convention and place their puzzle in this file.
